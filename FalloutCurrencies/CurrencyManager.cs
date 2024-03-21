@@ -7,18 +7,18 @@ using Verse;
 
 namespace FalloutCurrencies
 {
-	// Token: 0x02000007 RID: 7
+	
 	[StaticConstructorOnStartup]
 	public static class CurrencyManager
 	{
-		// Token: 0x06000007 RID: 7 RVA: 0x00002165 File Offset: 0x00000365
+		
 		static CurrencyManager()
 		{
 			new Harmony("FalloutCurrencies.Mod").PatchAll();
 			CurrencyManager.ReplaceSilverWithBottleCaps();
 		}
 
-		// Token: 0x06000008 RID: 8 RVA: 0x00002188 File Offset: 0x00000388
+		
 		public static bool TryGetCurrency(this Faction faction, out ThingDef currency)
 		{
 			FactionCurrency factionCurrency = ((faction != null) ? faction.def.GetModExtension<FactionCurrency>() : null);
@@ -37,13 +37,13 @@ namespace FalloutCurrencies
 			return flag2;
 		}
 
-		// Token: 0x06000009 RID: 9 RVA: 0x000021C5 File Offset: 0x000003C5
+		
 		public static void SwapCurrency(ThingDef newDef)
 		{
 			ThingDefOf.Silver = newDef;
 		}
 
-		// Token: 0x0600000A RID: 10 RVA: 0x000021D0 File Offset: 0x000003D0
+		
 		private static void ReplaceSilverWithBottleCaps()
 		{
 			ThingDef namedSilentFail = DefDatabase<ThingDef>.GetNamedSilentFail("ReplacedSilver");
@@ -142,7 +142,7 @@ namespace FalloutCurrencies
 			}
 		}
 
-		// Token: 0x04000002 RID: 2
+		
 		public static ThingDef defaultCurrencyDef = ThingDefOf.Silver;
 	}
 }
