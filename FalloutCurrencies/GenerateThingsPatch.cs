@@ -19,7 +19,7 @@ namespace FalloutCurrencies
         public static void Prefix(StockGenerator_SingleDef __instance, ref ThingDef ___thingDef, ref ThingDef __state, int forTile, Faction faction = null)
         {
             // If the thing def is the default currency and the faction has a currency set, use that instead.
-            if (___thingDef == CurrencyManager.defaultCurrencyDef && faction.TryGetCurrency(out __state))
+            if (___thingDef == CurrencyManager.DefaultCurrencyDef && faction.TryGetCurrency(out __state))
             {
                 ___thingDef = __state;
             }
@@ -41,7 +41,7 @@ namespace FalloutCurrencies
                 if (faction.TryGetCurrency(out ThingDef currency) && __state == currency)
                 {
                     // Reset the stock's currency to the default currency.
-                    __state = CurrencyManager.defaultCurrencyDef;
+                    __state = CurrencyManager.DefaultCurrencyDef;
                 }
                 yield return thing;
             }

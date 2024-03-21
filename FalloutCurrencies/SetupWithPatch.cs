@@ -28,9 +28,9 @@ namespace FalloutCurrencies
             }
 
             // Otherwise, use the default currency.
-            if (ThingDefOf.Silver != CurrencyManager.defaultCurrencyDef)
+            if (ThingDefOf.Silver != CurrencyManager.DefaultCurrencyDef)
             {
-                CurrencyManager.SwapCurrency(CurrencyManager.defaultCurrencyDef);
+                CurrencyManager.SwapCurrency(CurrencyManager.DefaultCurrencyDef);
             }
         }
     }

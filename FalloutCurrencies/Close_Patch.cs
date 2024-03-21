@@ -11,10 +11,10 @@ namespace FalloutCurrencies
 		
 		public static void Prefix()
 		{
-			bool flag = ThingDefOf.Silver != CurrencyManager.defaultCurrencyDef;
+			bool flag = ThingDefOf.Silver != CurrencyManager.DefaultCurrencyDef;
 			if (flag)
 			{
-				CurrencyManager.SwapCurrency(CurrencyManager.defaultCurrencyDef);
+				CurrencyManager.SwapCurrency(CurrencyManager.DefaultCurrencyDef);
 			}
 		}
 	}

@@ -17,7 +17,7 @@ namespace FalloutCurrencies
         public static void Postfix(StockGenerator_SingleDef __instance, ref bool __result, ref ThingDef ___thingDef)
         {
             // If the thing def is the default currency def, return true.
-            if (___thingDef == CurrencyManager.defaultCurrencyDef)
+            if (___thingDef == CurrencyManager.DefaultCurrencyDef)
             {
                 __result = true;
                 return;
