@@ -49,7 +49,7 @@
     <Compile Include="GenerateThingsPatch.cs" />
     <Compile Include="HandlesThingDefPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SetupWith_Patch.cs" />
+    <Compile Include="SetupWithPatch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
