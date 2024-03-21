@@ -46,7 +46,7 @@
     <Compile Include="Close_Patch.cs" />
     <Compile Include="CurrencyManager.cs" />
     <Compile Include="FactionCurrency.cs" />
-    <Compile Include="GenerateThings_Patch.cs" />
+    <Compile Include="GenerateThingsPatch.cs" />
     <Compile Include="HandlesThingDef_Patch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SetupWith_Patch.cs" />
