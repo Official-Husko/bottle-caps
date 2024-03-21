@@ -44,7 +44,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Close_Patch.cs" />
+    <Compile Include="ClosePatch.cs" />
     <Compile Include="CurrencyManager.cs" />
     <Compile Include="FactionCurrency.cs" />
     <Compile Include="GenerateThingsPatch.cs" />
