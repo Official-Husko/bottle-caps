@@ -1,0 +1,9 @@
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\bin\Debug\FalloutCurrencies.dll
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\bin\Debug\FalloutCurrencies.pdb
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\bin\Debug\0Harmony.dll
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\bin\Debug\Assembly-CSharp.dll
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\obj\Debug\FalloutCurrencies.csproj.AssemblyReference.cache
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\obj\Debug\FalloutCurrencies.csproj.CoreCompileInputs.cache
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\obj\Debug\FalloutCurrencies.csproj.CopyComplete
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\obj\Debug\FalloutCurrencies.dll
+Z:\Projects\CSharp\fcp-bottle-caps\FalloutCurrencies\obj\Debug\FalloutCurrencies.pdb
